@@ -6,7 +6,7 @@ const HeroSection = () => {
          <section className="relative bg-indigo-950 text-white">
         <div className="absolute inset-0 overflow-hidden">
           <img 
-            src="/public/img/HomePage/Hero.jpg" 
+            src="/img/HomePage/Hero.jpg" 
             alt="Healthcare AI Technology" 
             className="w-full h-full object-cover object-top opacity-30"
           />

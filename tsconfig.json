@@ -13,12 +13,13 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
+    "noEmit": false,  // Change this to false to emit compiled files
     "jsx": "react-jsx",
-    "baseUrl": "./",  // Added this line
+    "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "outDir": "./dist"  // Add this line to specify the output directory
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
